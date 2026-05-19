@@ -1,0 +1,425 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "9.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "rect1:Rect")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(linewidth 0.35)
+	)
+	(rect
+		(name "rect2:Rect")
+		(start 5 5 ltcorner)
+		(end 5 5)
+		(linewidth 0.7)
+	)
+	(line
+		(name "segm5:Line")
+		(start 40 5 ltcorner)
+		(end 40 0 ltcorner)
+		(linewidth 0.35)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "segm12:Line")
+		(start 40 5 lbcorner)
+		(end 40 0 lbcorner)
+		(linewidth 0.35)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "segm19:Line")
+		(start 5 38.5 ltcorner)
+		(end 0 38.5 ltcorner)
+		(linewidth 0.35)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "segm24:Line")
+		(start 5 38.5 rtcorner)
+		(end 0 38.5 rtcorner)
+		(linewidth 0.35)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "1"
+		(name "text1:Text")
+		(pos 15 2.5 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 3.5 3.5)
+		)
+		(justify center)
+		(repeat 100)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "text9:Text")
+		(pos 15 2.5 lbcorner)
+		(font
+			(linewidth 0.35)
+			(size 3.5 3.5)
+		)
+		(justify center)
+		(repeat 100)
+		(incrx 50)
+	)
+	(tbtext "A"
+		(name "text23:Text")
+		(pos 2.5 13.5 rtcorner)
+		(font
+			(linewidth 0.35)
+			(size 3.5 3.5)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(polygon
+		(name "poly1:Poly")
+		(pos -10 -10 ltcorner)
+		(linewidth 0.35)
+		(pts
+			(xy 0 0) (xy 10 0) (xy 10 5) (xy 5 5) (xy 5 10) (xy 0 10) (xy 0 0)
+		)
+	)
+	(polygon
+		(name "poly2:Poly")
+		(pos -10 -10 lbcorner)
+		(rotate 90)
+		(linewidth 0.35)
+		(pts
+			(xy 0 0) (xy 10 0) (xy 10 5) (xy 5 5) (xy 5 10) (xy 0 10) (xy 0 0)
+		)
+	)
+	(polygon
+		(name "poly3:Poly")
+		(pos -10 -10 rtcorner)
+		(rotate -90)
+		(linewidth 0.35)
+		(pts
+			(xy 0 0) (xy 10 0) (xy 10 5) (xy 5 5) (xy 5 10) (xy 0 10) (xy 0 0)
+		)
+	)
+	(polygon
+		(name "poly4:Poly")
+		(pos -10 -10)
+		(rotate 180)
+		(linewidth 0.35)
+		(pts
+			(xy 0 0) (xy 10 0) (xy 10 5) (xy 5 5) (xy 5 10) (xy 0 10) (xy 0 0)
+		)
+	)
+	(rect
+		(name "rect3:Rect")
+		(start 5 5)
+		(end 185 40)
+		(linewidth 0.7)
+	)
+	(line
+		(name "segm41:Line")
+		(start 5 32)
+		(end 185 32)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm42:Line")
+		(start 5 23)
+		(end 111 23)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm43:Line")
+		(start 5 14)
+		(end 56 14)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm44:Line")
+		(start 153 40)
+		(end 153 32)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm45:Line")
+		(start 111 40)
+		(end 111 5)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm46:Line")
+		(start 69 40)
+		(end 69 32)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm47:Line")
+		(start 27 40)
+		(end 27 32)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm48:Line")
+		(start 56 32)
+		(end 56 5)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm49:Line")
+		(start 47 14)
+		(end 47 5)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm50:Line")
+		(start 23 14)
+		(end 23 5)
+		(linewidth 0.35)
+	)
+	(line
+		(name "segm51:Line")
+		(start 14 14)
+		(end 14 5)
+		(linewidth 0.35)
+	)
+	(tbtext "Responsible dept."
+		(name "text41:Text")
+		(pos 184.5 39)
+		(font
+			(linewidth 0.18)
+			(size 2 2)
+		)
+		(justify top)
+	)
+	(tbtext "Technical reference"
+		(name "text42:Text")
+		(pos 152.5 39)
+		(font
+			(linewidth 0.18)
+			(size 2 2)
+		)
+		(justify top)
+	)
+	(tbtext "Created by"
+		(name "text43:Text")
+		(pos 110.5 39)
+		(font
+			(linewidth 0.18)
+			(size 2 2)
+		)
+		(justify top)
+	)
+	(tbtext "Approved by"
+		(name "text44:Text")
+		(pos 68.5 39)
+		(font
+			(linewidth 0.18)
+			(size 2 2)
+		)
+		(justify top)
+	)
+	(tbtext "Document type"
+		(name "text45:Text")
+		(pos 110.5 31)
+		(font
+			(linewidth 0.18)
+			(size 2 2)
+		)
+		(justify top)
+	)
+	(tbtext "Document status"
+		(name "text46:Text")
+		(pos 55.5 31)
+		(font
+			(linewidth 0.18)
+			(size 2 2)
+		)
+		(justify top)
+	)
+	(tbtext "Title, Supplementary title"
+		(name "text47:Text")
+		(pos 110 22)
+		(font
+			(linewidth 0.18)
+			(size 2 2)
+		)
+		(justify top)
+	)
+	(tbtext "Rev."
+		(name "text48:Text")
+		(pos 55.5 13)
+		(font
+			(linewidth 0.18)
+			(size 2 2)
+		)
+		(justify top)
+	)
+	(tbtext "Date of issue"
+		(name "text49:Text")
+		(pos 46.5 13)
+		(font
+			(linewidth 0.18)
+			(size 2 2)
+		)
+		(justify top)
+	)
+	(tbtext "Lang."
+		(name "text50:Text")
+		(pos 22.5 13)
+		(font
+			(linewidth 0.18)
+			(size 2 2)
+		)
+		(justify top)
+	)
+	(tbtext "Sheet"
+		(name "text51:Text")
+		(pos 13.85 13)
+		(font
+			(linewidth 0.18)
+			(size 2 2)
+		)
+		(justify top)
+	)
+	(tbtext "${COMPANY}"
+		(name "text52:Text")
+		(pos 148 18.5)
+		(font
+			(linewidth 0.35)
+			(size 2.3 2.3)
+		)
+		(justify center)
+	)
+	(tbtext "${TITLE}"
+		(name "text54:Text")
+		(pos 110.5 18.5)
+		(font
+			(linewidth 0.35)
+			(size 1.7 1.7)
+		)
+		(justify top)
+	)
+	(tbtext "${COMMENT3}"
+		(name "text55:Text")
+		(pos 110.5 33)
+		(font
+			(linewidth 0.35)
+			(size 1.7 1.7)
+		)
+		(justify bottom)
+	)
+	(tbtext "${COMMENT7}"
+		(name "text56:Text")
+		(pos 55.5 22)
+		(font
+			(linewidth 0.35)
+			(size 1.7 1.7)
+		)
+		(justify top)
+	)
+	(tbtext "${REVISION}"
+		(name "text57:Text")
+		(pos 55.5 10)
+		(font
+			(linewidth 0.35)
+			(size 1.7 1.7)
+		)
+		(justify top)
+	)
+	(tbtext "${ISSUE_DATE}"
+		(name "text58:Text")
+		(pos 46.5 10)
+		(font
+			(linewidth 0.35)
+			(size 1.7 1.7)
+		)
+		(justify top)
+	)
+	(tbtext "${COMMENT4}"
+		(name "text59:Text")
+		(pos 22.5 10)
+		(font
+			(linewidth 0.35)
+			(size 1.7 1.7)
+		)
+		(justify top)
+	)
+	(tbtext "${#}/${##}"
+		(name "text60:Text")
+		(pos 13.5 10)
+		(font
+			(linewidth 0.35)
+			(size 1.7 1.7)
+		)
+		(justify top)
+	)
+	(tbtext "${COMMENT2}"
+		(name "text55:Text")
+		(pos 152.5 33)
+		(font
+			(linewidth 0.35)
+			(size 1.7 1.7)
+		)
+		(justify bottom)
+	)
+	(tbtext "${COMMENT1}"
+		(name "text55:Text")
+		(pos 184.5 33)
+		(font
+			(linewidth 0.35)
+			(size 1.7 1.7)
+		)
+		(justify bottom)
+	)
+	(tbtext "${COMMENT5}"
+		(name "text55:Text")
+		(pos 110.5 27.5)
+		(font
+			(linewidth 0.35)
+			(size 1.7 1.7)
+		)
+		(justify top)
+	)
+	(tbtext "${COMMENT4}"
+		(name "text55:Text")
+		(pos 68.5 33)
+		(font
+			(linewidth 0.35)
+			(size 1.7 1.7)
+		)
+		(justify bottom)
+	)
+	(tbtext "${COMMENT6}"
+		(name "text55:Text")
+		(pos 55.5 27.5)
+		(font
+			(linewidth 0.35)
+			(size 1.7 1.7)
+		)
+		(justify top)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 2.5 13.5 ltcorner)
+		(font
+			(linewidth 0.35)
+			(size 3.5 3.5)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+)

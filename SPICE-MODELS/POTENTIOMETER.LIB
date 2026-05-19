@@ -1,0 +1,27 @@
+.subckt rpot_2_p 1 2 params: value=10K pos=0.5
+R1 1 2 {value*pos + 1m}
+.ends
+
+.subckt rpot 1 2 3 params: value=10K pos=0.5
+R1 1 2 {value*pos + 1m}
+R2 2 3 {value*(1-pos)+ 1m}
+.ends
+
+.subckt rpot_6_p 1 2 3 4 5 6 params: value=10K pos=0.5
+R1 1 2 {value*pos + 1m}
+R2 2 3 {value*(1-pos)+ 1m}
+R3 4 5 {value*pos + 1m}
+R4 5 6 {value*(1-pos)+ 1m}
+.ends
+
+.subckt rpot_4_p 1 2 3 4 params: value=10K pos=0.5
+R1 1 2 {value*pos + 1m}
+R2 2 3 {value*(1-pos)+ 1m}
+.ends
+
+.subckt rpot_8_p 1 2 3 4 5 6 7 8 params: value=10K pos=0.5
+R1 1 2 {value*pos + 1m}
+R2 2 3 {value*(1-pos)+ 1m}
+R3 4 5 {value*pos + 1m}
+R4 5 6 {value*(1-pos)+ 1m}
+.ends
