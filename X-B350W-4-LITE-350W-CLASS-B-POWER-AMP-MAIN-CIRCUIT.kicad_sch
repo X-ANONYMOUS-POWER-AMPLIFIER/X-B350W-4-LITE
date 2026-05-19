@@ -4249,7 +4249,7 @@
 		)
 		(uuid "678c2dfd-d566-4cc1-bce3-9caf5c375835")
 	)
-	(text ".title 350W CLASS-B POWER AMPLIFIER MAIN-CIRCUIT FOR 4-OHMS OUTPUT LOAD"
+	(text ".title X-B350W-4-LITE SIMPLIFIED 350W CLASS-B POWER AMPLIFIER MAIN-CIRCUIT FOR 4-OHMS OUTPUT LOAD"
 		(exclude_from_sim no)
 		(at -184.15 89.535 0)
 		(effects
