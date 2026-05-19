@@ -14,10 +14,10 @@ There are 3 nodes of NFB lag compensations applied as C4006, C4008, and C4010, t
 
 By applying this technique, this power amp main-circuit model will be able to achieve wide headroom even for 1-ohms load in fully symmetrically and certainly achieve high performance in nominal output load (4-ohms or 8-ohms). And certainly, one of the important tings is about limit the number of transistors, makes the X-B350W-4-LITE circuit model quit simple with high performance guarantee.
 
-![FFT analysis 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/ss1.png)
-![FFT analysis 2](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/ss2.png)
-![Fourier analysis 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/ss3.png)
-![Fourier analysis 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/ss4.png)
+![FFT analysis 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/ss1.png)
+![FFT analysis 2](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/ss2.png)
+![Fourier analysis 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/ss3.png)
+![Fourier analysis 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/ss4.png)
 
 ## Warning: None of Current-Limiter Applied Within The Output-Stage
 
