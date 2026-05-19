@@ -2,7 +2,7 @@
 
 X-B350W-4-LITE is a power amplifier main-circuit module designed to handle 350 watts of 4-ohms output load power rating. The circuit of X-B350W-4-LITE applies only the effective circuitry models for each of its blocks. Its input-stage applies a minimalist-but-effective LTP (Long Tailed Pair) circuit model, completed with an active-load and an offset null adjustment trimmer. Its VAS (Voltage Amplifier Stage) applies a simple circuit model but with an advanced active-load technique to achieve high amplification performance, with applies only few number of transistors without needing to apply differential-based topology.
 
-![X-B350W-4-LITE schematic diagram](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/X-B350W-4-LITE-350W-CLASS-B-POWER-AMP-SIMPLE-MAIN-CIRCUIT.png?raw=true)
+![X-B350W-4-LITE schematic diagram](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/X-B350W-4-LITE-350W-CLASS-B-POWER-AMP-MAIN-CIRCUIT.png)
 
 ## Advanced VAS Model
 
@@ -20,11 +20,11 @@ There is none of current-limiter applied within the output-stage, means that it 
 
 You may have a question, why none of current-limiter applied within the output-stage? The answer is: Applying the current-limiters within the output-stage, as it commonly applied "just to drop the signal amplitude of the output-stage driver transistor bases" - is not really effective since the VAS will always maintain its signal-current along to follow its amplification level although the current-limiter actives as it detects a short-circuited output.
 
-![Circuit board preview 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/1.png)
-![Circuit board preview 2](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/2.png)
-![Circuit board preview 3](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/3.png)
-![Circuit board preview 4](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/4.png)
-![Circuit board preview 5](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/5.png)
+![Circuit board preview 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/1.jpg)
+![Circuit board preview 2](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/2.jpg)
+![Circuit board preview 3](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/3.jpg)
+![Circuit board preview 4](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/4.jpg)
+![Circuit board preview 5](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/5.jpg)
 
 ## License
 
