@@ -14,11 +14,18 @@ There are 3 nodes of NFB lag compensations applied as C4006, C4008, and C4010, t
 
 By applying this technique, this power amp main-circuit model will be able to achieve wide headroom even for 1-ohms load in fully symmetrically and certainly achieve high performance in nominal output load (4-ohms or 8-ohms). And certainly, one of the important tings is about limit the number of transistors, makes the X-B350W-4-LITE circuit model quit simple with high performance guarantee.
 
+![FFT analysis 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/ss1.png)
+![FFT analysis 2](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/ss2.png)
+![Fourier analysis 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/ss3.png)
+![Fourier analysis 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/ss4.png)
+
 ## Warning: None of Current-Limiter Applied Within The Output-Stage
 
 There is none of current-limiter applied within the output-stage, means that it may introduce a risk of short-circuited output. To prevent a fatal output short-circuited overcome, an output protection circuit have to be applied between the X-B350W-4-LITE module's +SPK output and the loudspeaker. The sensing signal of the overload output or output short-circuit can be obtained via CNT4008.
 
 You may have a question, why none of current-limiter applied within the output-stage? The answer is: Applying the current-limiters within the output-stage, as it commonly applied "just to drop the signal amplitude of the output-stage driver transistor bases" - is not really effective since the VAS will always maintain its signal-current along to follow its amplification level although the current-limiter actives as it detects a short-circuited output.
+
+
 
 ![Circuit board preview 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/1.jpg)
 ![Circuit board preview 2](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/PCB-PREVIEW/2.jpg)
