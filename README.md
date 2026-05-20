@@ -17,7 +17,7 @@ By applying this technique, this power amp main-circuit model will be able to ac
 ![FFT analysis 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/ss1.png)
 ![FFT analysis 2](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/ss2.png)
 ![Fourier analysis 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/ss3.png)
-![Fourier analysis 1](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/ss4.png)
+![Fourier analysis 2](https://github.com/X-ANONYMOUS-POWER-AMPLIFIER/X-B350W-4-LITE/blob/main/ss4.png)
 
 ## Warning: None of Current-Limiter Applied Within The Output-Stage
 
